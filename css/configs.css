@@ -1,5 +1,49 @@
-.SOM{
-    display: flex;
-    align-items: center;
-    
-}
+        /* Container principal */
+        .volume-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-family: sans-serif;
+            background-color: #f5f5f5;
+            padding: 10px 20px;
+            border-radius: 8px;
+            width: fit-content;
+        }
+
+        /* Texto "Volume" */
+        .volume-container p {
+            margin: 0;
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Estilo geral dos botões */
+        .volume-container button {
+            border: none;
+            padding: 8px 16px;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        /* Botão ON (Ativo por padrão neste exemplo) */
+        .btn-on {
+            background-color: #2ecc71;
+            color: white;
+        }
+
+        .btn-on:hover {
+            background-color: #27ae60;
+        }
+
+        /* Botão OFF (Inativo/Desabilitado visualmente neste exemplo) */
+        .btn-off {
+            background-color: #e0e0e0;
+            color: #7f8c8d;
+        }
+
+        .btn-off:hover {
+            background-color: #bdc3c7;
+            color: #333;
+        }
